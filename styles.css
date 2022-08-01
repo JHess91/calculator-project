@@ -1,36 +1,35 @@
 body {
   background-color: #e5e5e3;
   padding-top: 60px;
-  background-image:url(https://static.vecteezy.com/system/resources/previews/003/222/489/non_2x/flat-design-top-view-of-working-table-with-accessory-on-desk-vector.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/003/222/489/non_2x/flat-design-top-view-of-working-table-with-accessory-on-desk-vector.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size:100% 100%;
+  background-size: 100% 100%;
 }
 
 h1 {
-color: red;
-font-family: 'Mochiy Pop One', sans-serif;
-text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
-text-align: center;
-position: relative;
-top: 830px;
-letter-spacing: 1px;
-font-size: 40px;
-
+  color: red;
+  font-family: 'Mochiy Pop One', sans-serif;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  text-align: center;
+  position: relative;
+  top: 830px;
+  letter-spacing: 1px;
+  font-size: 40px;
 }
 
 .calculator {
   display: block;
   border: black solid 2px;
   border-radius: 6px;
-  position:relative;
+  position: relative;
   max-width: 100%;
   width: 300px;
   height: 100%;
   margin: 0 auto;
   padding: 25px 24px;
   padding-top: 14px;
-  background:#0462a0;
+  background: #0462a0;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   box-shadow: 4px 3px darkgrey;
@@ -38,113 +37,110 @@ font-size: 40px;
 }
 
 .display-box {
-border: black solid 2px;
-padding: 4px;
-margin-top: 20px;
-border-radius: 4px;
-width: 285px;
-height: 40px;
-background-color:#828e74;
-text-align: right;
-font-size: 25px;
-font-family: 'Share Tech Mono', monospace;
-font-weight: 900;
-color: black;
-box-shadow: 2px 3px 2px 3px #626a57 inset;
+  border: black solid 2px;
+  padding: 4px;
+  margin-top: 20px;
+  border-radius: 4px;
+  width: 285px;
+  height: 40px;
+  background-color: #828e74;
+  text-align: right;
+  font-size: 25px;
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: 900;
+  color: black;
+  box-shadow: 2px 3px 2px 3px #626a57 inset;
 }
 
-
 .solar-panel {
-border: black solid 1px;
-margin-top: 10px;
-background-color: #372520;
-height: 30px;
-width: 30px;
-box-shadow: 2px 3px 2px #231714 inset;
+  border: black solid 1px;
+  margin-top: 10px;
+  background-color: #372520;
+  height: 30px;
+  width: 30px;
+  box-shadow: 2px 3px 2px #231714 inset;
 }
 
 .panel {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .ti180 {
-color: white;
-margin-left: 27px;
-margin-top: 10px;
-font-size: 30px;
-font-family: 'Share Tech Mono', monospace;
-font-weight: 900;
+  color: white;
+  margin-left: 27px;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: 900;
 }
 
-
-
-
 .calculator-buttons {
-position: relative;
-margin: -30px 0 0 -10px; 
+  position: relative;
+  margin: -30px 0 0 -10px;
 }
 
 .calculator-buttons > button {
-border-radius: 4px;
-font-family: 'Share Tech Mono', monospace;
-box-sizing: border-box;
-position: relative;
-display: inline-block;
-width: 64px;
-height: 50px;
-font-size: 30px;
-box-sizing: border-box;
-background: #efebe5;
-margin-top: 15px;
-margin-left: 10px;
-box-shadow: 1px 2px;
-text-shadow: 1px 1px gray;
+  border-radius: 4px;
+  font-family: 'Share Tech Mono', monospace;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 50px;
+  font-size: 30px;
+  box-sizing: border-box;
+  background: #efebe5;
+  margin-top: 15px;
+  margin-left: 10px;
+  box-shadow: 1px 2px;
+  text-shadow: 1px 1px gray;
 }
 
 .calculator-buttons > button:after {
-position: absolute;
-display: block;
-top: 48px;
-overflow: hidden;
-opacity: 0.4;
-right: -1px;
-left: -1px;
-height: 20px;
-background: transparent;
+  position: absolute;
+  display: block;
+  top: 48px;
+  overflow: hidden;
+  opacity: 0.4;
+  right: -1px;
+  left: -1px;
+  height: 20px;
+  background: transparent;
 }
 
-.calculator-buttons > button:focus { outline:0; }
+.calculator-buttons > button:focus {
+  outline: 0;
+}
 
 .calculator-buttons > .all-clear-function {
-background: #c82138; 
-color: #ffffff;
+  background: #c82138;
+  color: #ffffff;
 }
 
 .calculator-buttons > .operator {
-background-color: #c82138;
-color: white;
-box-shadow: 1px 1px black;
+  background-color: #c82138;
+  color: white;
+  box-shadow: 1px 1px black;
 }
 
-.calculator-buttons > button.zero { width: 142px; }
+.calculator-buttons > button.zero {
+  width: 142px;
+}
 
 .calculator-buttons > button.equal {
-bottom: 0;
-right: 0;
-color: #ffffff;
-background: #c82138;
-position: absolute;
-height: 120px;
-box-shadow: 1px 1px black;
+  bottom: 0;
+  right: 0;
+  color: #ffffff;
+  background: #c82138;
+  position: absolute;
+  height: 120px;
+  box-shadow: 1px 1px black;
 }
-
 
 .github {
-display: flex;
-justify-content: center;
-margin-top: 300px;
-font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  font-size: 25px;
 }
-
-
