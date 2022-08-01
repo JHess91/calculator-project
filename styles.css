@@ -9,13 +9,13 @@ body {
 
 h1 {
   color: red;
+  font-size: 40px;
   font-family: 'Mochiy Pop One', sans-serif;
-  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
   text-align: center;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  letter-spacing: 1px;
   position: relative;
   top: 830px;
-  letter-spacing: 1px;
-  font-size: 40px;
 }
 
 .calculator {
@@ -29,11 +29,11 @@ h1 {
   margin: 0 auto;
   padding: 25px 24px;
   padding-top: 14px;
+  top: 200px;
   background: #0462a0;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   box-shadow: 4px 3px darkgrey;
-  top: 200px;
 }
 
 .display-box {
@@ -43,12 +43,12 @@ h1 {
   border-radius: 4px;
   width: 285px;
   height: 40px;
+  color: black;
   background-color: #828e74;
-  text-align: right;
   font-size: 25px;
   font-family: 'Share Tech Mono', monospace;
   font-weight: 900;
-  color: black;
+  text-align: right;
   box-shadow: 2px 3px 2px 3px #626a57 inset;
 }
 
