@@ -73,6 +73,6 @@ firebase.json
 
 images
 
-.vscode
+vscode
 
-./public
+public
