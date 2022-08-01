@@ -10,7 +10,7 @@ function percent() {
 
 function calculate(){
     try {
-        calculatorScreen.value = stringMath(calculatorScreen.value)
+        calculatorScreen.value = eval(calculatorScreen.value)
     } catch (err) {
         alert('Cannot compute 🤖')
     }
