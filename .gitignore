@@ -66,12 +66,5 @@ node_modules/
 .env
 
 .firebaserc
-
 404.html
-
 firebase.json
-
-
-vscode
-
-public
