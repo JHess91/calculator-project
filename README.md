@@ -1,4 +1,4 @@
-# HTML CSS JS Calculator
+# Calculator
 
 Simple calculator to Add, Subtract, Multiply, Divide and Percentages
 
